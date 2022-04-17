@@ -1,0 +1,29 @@
+{
+  "name": "batch-convert-encoding",
+  "version": "1.0.0",
+  "description": "batch convert encoding",
+  "main": "index.js",
+  "bin": {
+    "batch-convert-encoding": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/batch-convert-encoding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/batch-convert-encoding/issues"
+  },
+  "homepage": "https://github.com/postor/batch-convert-encoding#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "detect-file-encoding-and-language": "^2.1.0",
+    "glob": "^8.0.1",
+    "legacy-encoding": "^3.0.0"
+  }
+}
